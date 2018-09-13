@@ -36,6 +36,7 @@ class Engineer(Person, Citizenship):
 def main():
     p1 = Engineer("Ram", 20, "Nepal")
     print(p1.get_country())
+    print(p1.get_name())
 
 
 if __name__ == "__main__":
